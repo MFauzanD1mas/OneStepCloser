@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+
+.left-side {
+    width: 45%;
+    padding: 20px 0px 20px 40px;
+    background-color: #3DC2EC;
+    border-radius: 8px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.right-side {
+    width: 45%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.data-akun {
+    background-color: #3DC2EC;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.data-akun h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.data-akun input {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.data-akun p {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.nominal {
+    background-color: #3DC2EC;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.nominal h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.nominal .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.nominal .item:hover{
+    background-color:aliceblue;
+    color: #181818;
+}
+
+.nominal .item .title {
+    font-size: 16px;
+}
+
+.nominal .item .price {
+    font-size: 16px;
+}
