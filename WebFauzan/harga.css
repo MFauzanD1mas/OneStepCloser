@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 40px 10px 40px;
 }
 
@@ -14,8 +14,9 @@
 }
 
 .right-side {
-    width: 45%;
+    width: 95%;
     padding: 20px;
+    float: right;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
 .data-akun {
     background-color: #3DC2EC;
     padding: 20px;
+    padding-bottom: 52px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
